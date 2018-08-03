@@ -1,4 +1,4 @@
-FROM openjdk18-openshift
+FROM openjdk:8-jdk-alpine
 VOLUME /tmp
 RUN mkdir logs
 ARG JAR_FILE
